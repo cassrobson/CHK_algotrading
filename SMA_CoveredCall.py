@@ -3,7 +3,7 @@ from datetime import timedelta
 
 
 
-class ScheduleSetHoldingsOnCloseSellOpen(QCAlgorithm):
+class SimpleMovingAverageCoveredCall(QCAlgorithm):
     def Initialize(self):
         # set start and end date for backtest
         self.SetStartDate(2021, 1, 1)
